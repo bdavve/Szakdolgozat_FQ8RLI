@@ -5,7 +5,7 @@
 // ──────────────────────────────────────────────
 
 const string ConnectionString =
-    "Server=ProdServerHU;Database=SportStats;User Id=MyUser;Password=S3cureP@ss!;TrustServerCertificate=True;";
+    "Server=(localdb)\\MSSQLLocalDB;Database=SportStats;Trusted_Connection=True;";
 
 Console.OutputEncoding = System.Text.Encoding.UTF8;
 

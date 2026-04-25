@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="RobotSimulator.ChatGPT/RobotSimulator.ChatGPT.csproj" />
+  <Project Path="RobotSimulator.Claude/RobotSimulator.Claude.csproj" />
+  <Project Path="RobotSimulator.Gemini/RobotSimulator.Gemini.csproj" />
+  <Project Path="Tournament.ChatGPT/Tournament.ChatGPT.csproj" />
+  <Project Path="Tournament.Claude/Tournament.Claude.csproj" />
+  <Project Path="Tournament.Gemini/Tournament.Gemini.csproj" />
+</Solution>

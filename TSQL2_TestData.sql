@@ -1,0 +1,40 @@
+﻿-- Ügyfelek
+INSERT INTO customers (first_name, last_name, email, city, registration_date) VALUES
+(N'Kovács', N'Anna', 'kovacs.anna@email.hu', N'Budapest', '2023-05-10'),
+(N'Nagy', N'Péter', 'nagy.peter@email.hu', N'Debrecen', '2023-08-15'),
+(N'Szabó', N'Eszter', 'szabo.eszter@email.hu', N'Szeged', '2024-01-20'),
+(N'Tóth', N'Gábor', 'toth.gabor@email.hu', N'Budapest', '2024-03-05'),
+(N'Horváth', N'Katalin', 'horvath.katalin@email.hu', N'Pécs', '2024-06-12'),
+(N'Kiss', N'László', 'kiss.laszlo@email.hu', N'Győr', '2023-11-08'),
+(N'Varga', N'Júlia', 'varga.julia@email.hu', N'Miskolc', '2024-02-14'),
+(N'Molnár', N'Tamás', 'molnar.tamas@email.hu', N'Budapest', '2023-09-22'),
+(N'Németh', N'Zsófia', 'nemeth.zsofia@email.hu', N'Nyíregyháza', '2024-04-18'),
+(N'Farkas', N'Márk', 'farkas.mark@email.hu', N'Kecskemét', '2023-12-01'),
+(N'Balogh', N'Dóra', 'balogh.dora@email.hu', N'Székesfehérvár', '2024-05-25'),
+(N'Papp', N'Bence', 'papp.bence@email.hu', N'Szombathely', '2023-07-14'),
+(N'Takács', N'Réka', 'takacs.reka@email.hu', N'Budapest', '2024-01-03'),
+(N'Juhász', N'Ádám', 'juhasz.adam@email.hu', N'Debrecen', '2023-06-28'),
+(N'Lakatos', N'Nóra', 'lakatos.nora@email.hu', N'Pécs', '2024-03-17'),
+(N'Mészáros', N'Dániel', 'meszaros.daniel@email.hu', N'Győr', '2023-10-05'),
+(N'Oláh', N'Fanni', 'olah.fanni@email.hu', N'Szeged', '2024-02-22'),
+(N'Simon', N'Máté', 'simon.mate@email.hu', N'Budapest', '2024-06-01'),
+(N'Rácz', N'Lilla', 'racz.lilla@email.hu', N'Miskolc', '2023-04-12'),
+(N'Fekete', N'Balázs', 'fekete.balazs@email.hu', N'Debrecen', '2024-07-08');
+
+-- Termékek (különböző készletszintek a teszteléshez)
+INSERT INTO products (product_name, category, unit_price, stock_quantity) VALUES
+(N'Laptop', N'Elektronika', 299990.00, 50),
+(N'Egér', N'Elektronika', 8990.00, 100),
+(N'Billentyűzet', N'Elektronika', 14990.00, 30),
+(N'Monitor', N'Elektronika', 89990.00, 10),
+(N'Fejhallgató', N'Elektronika', 24990.00, 3),
+(N'Íróasztal', N'Bútor', 49990.00, 5),
+(N'Irodai szék', N'Bútor', 79990.00, 2),
+(N'Pendrive 64GB', N'Kiegészítő', 3990.00, 200),
+(N'Webkamera', N'Elektronika', 12990.00, 15),
+(N'USB Hub', N'Kiegészítő', 5990.00, 0),
+(N'HDMI kábel', N'Kiegészítő', 2990.00, 80),
+(N'Laptop táska', N'Kiegészítő', 9990.00, 25),
+(N'Nyomtató', N'Elektronika', 39990.00, 1), 
+(N'Bluetooth hangszóró', N'Elektronika', 19990.00, 20),
+(N'Monitor állvány', N'Bútor', 15990.00, 12);

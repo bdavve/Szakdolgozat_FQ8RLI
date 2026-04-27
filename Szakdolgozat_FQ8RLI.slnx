@@ -1,20 +1,20 @@
 <Solution>
   <Folder Name="/TSQL/" />
   <Folder Name="/TSQL/Setup/">
-    <File Path="TSQL1_Tables.sql" />
-    <File Path="TSQL1_TestData.sql" />
-    <File Path="TSQL2_Tables.sql" />
-    <File Path="TSQL2_TestData.sql" />
+    <File Path="TSQL/Setup/TSQL1_Tables.sql" />
+    <File Path="TSQL/Setup/TSQL1_TestData.sql" />
+    <File Path="TSQL/Setup/TSQL2_Tables.sql" />
+    <File Path="TSQL/Setup/TSQL2_TestData.sql" />
   </Folder>
   <Folder Name="/TSQL/TSQL-1/">
-    <File Path="CartAbandonment.ChatGPT.sql" />
-    <File Path="CartAbandonment.Claude.sql" />
-    <File Path="CartAbandonment.Gemini.sql" />
+    <File Path="TSQL/TSQL1/CartAbandonment.ChatGPT.sql" />
+    <File Path="TSQL/TSQL1/CartAbandonment.Claude.sql" />
+    <File Path="TSQL/TSQL1/CartAbandonment.Gemini.sql" />
   </Folder>
   <Folder Name="/TSQL/TSQL-2/">
-    <File Path="OrderProcessing.ChatGPT.sql" />
-    <File Path="OrderProcessing.Claude.sql" />
-    <File Path="OrderProcessing.Gemini.sql" />
+    <File Path="TSQL/TSQL2/OrderProcessing.ChatGPT.sql" />
+    <File Path="TSQL/TSQL2/OrderProcessing.Claude.sql" />
+    <File Path="TSQL/TSQL2/OrderProcessing.Gemini.sql" />
   </Folder>
   <Project Path="CartAbandonment/CartAbandonment.sqlproj" Id="261ba99d-73c7-48f2-bf38-a24a25488e93">
     <Build />

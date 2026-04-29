@@ -12,6 +12,8 @@
     <File Path="TSQL/TSQL1/CartAbandonment.Gemini.sql" />
   </Folder>
   <Folder Name="/TSQL/TSQL-2/">
+    <File Path="OrderProcessingTVP.ChatGPT.sql" />
+    <File Path="OrderProcessingTVP.Gemini.sql" />
     <File Path="TSQL/TSQL2/OrderProcessing.ChatGPT.sql" />
     <File Path="TSQL/TSQL2/OrderProcessing.Claude.sql" />
     <File Path="TSQL/TSQL2/OrderProcessing.Gemini.sql" />

@@ -1,4 +1,31 @@
 <Solution>
+  <Folder Name="/TSQL/" />
+  <Folder Name="/TSQL/Setup/">
+    <File Path="TSQL/Setup/TSQL1_Tables.sql" />
+    <File Path="TSQL/Setup/TSQL1_TestData.sql" />
+    <File Path="TSQL/Setup/TSQL2_Tables.sql" />
+    <File Path="TSQL/Setup/TSQL2_TestData.sql" />
+  </Folder>
+  <Folder Name="/TSQL/TSQL-1/">
+    <File Path="TSQL/TSQL1/CartAbandonment.ChatGPT.sql" />
+    <File Path="TSQL/TSQL1/CartAbandonment.Claude.sql" />
+    <File Path="TSQL/TSQL1/CartAbandonment.Gemini.sql" />
+  </Folder>
+  <Folder Name="/TSQL/TSQL-2/">
+    <File Path="OrderProcessingTVP.ChatGPT.sql" />
+    <File Path="OrderProcessingTVP.Gemini.sql" />
+    <File Path="TSQL/TSQL2/OrderProcessing.ChatGPT.sql" />
+    <File Path="TSQL/TSQL2/OrderProcessing.Claude.sql" />
+    <File Path="TSQL/TSQL2/OrderProcessing.Gemini.sql" />
+  </Folder>
+  <Project Path="CartAbandonment/CartAbandonment.sqlproj" Id="261ba99d-73c7-48f2-bf38-a24a25488e93">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="OrderProcessing/OrderProcessing.sqlproj" Id="cc16b9d2-dc6a-4e71-9d57-d5f064670ad9">
+    <Build />
+    <Deploy />
+  </Project>
   <Project Path="RobotSimulator.ChatGPT/RobotSimulator.ChatGPT.csproj" />
   <Project Path="RobotSimulator.Claude/RobotSimulator.Claude.csproj" />
   <Project Path="RobotSimulator.Gemini/RobotSimulator.Gemini.csproj" />
